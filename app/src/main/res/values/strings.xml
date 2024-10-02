@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">1_Praktinis_Darbas</string>
+    <string name="welcome_message">Welcome to android</string>
 </resources>

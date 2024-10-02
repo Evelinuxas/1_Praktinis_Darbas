@@ -2,7 +2,6 @@ package com.example.a1_praktinis_darbas;
 
 import android.os.Bundle;
 import android.view.View;
-import android.widget.Button;
 import android.widget.TextView;
 
 import androidx.activity.EdgeToEdge;
@@ -27,6 +26,7 @@ public class MainActivity extends AppCompatActivity {
 
     public void onBtnChangeTextClick(View view) {
         TextView tvChangeText = findViewById(R.id.tvChangeText);
-        tvChangeText.setText("Welcome to android");
+        tvChangeText.setText(getString(R.string.welcome_message));
     }
+
 }
