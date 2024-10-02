@@ -1,6 +1,9 @@
 package com.example.a1_praktinis_darbas;
 
 import android.os.Bundle;
+import android.view.View;
+import android.widget.Button;
+import android.widget.TextView;
 
 import androidx.activity.EdgeToEdge;
 import androidx.appcompat.app.AppCompatActivity;
@@ -20,5 +23,10 @@ public class MainActivity extends AppCompatActivity {
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom);
             return insets;
         });
+    }
+
+    public void onBtnChangeTextClick(View view) {
+        TextView tvChangeText = findViewById(R.id.tvChangeText);
+        tvChangeText.setText("Welcome to android");
     }
 }
