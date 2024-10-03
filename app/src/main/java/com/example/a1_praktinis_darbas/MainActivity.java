@@ -34,6 +34,6 @@ public class MainActivity extends AppCompatActivity {
     public void onBtnChangeColorClick(View view) {
         TextView tvChangeText = findViewById(R.id.tvChangeText);
         // Pakeicia teksto spalva i raudona
-        tvChangeText.setTextColor(Color.BLUE);
+        tvChangeText.setTextColor(Color.RED);
     }
 }
