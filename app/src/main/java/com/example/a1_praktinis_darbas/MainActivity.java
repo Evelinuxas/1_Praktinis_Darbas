@@ -1,5 +1,6 @@
 package com.example.a1_praktinis_darbas;
 
+import android.graphics.Color;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.TextView;
@@ -23,9 +24,16 @@ public class MainActivity extends AppCompatActivity {
             return insets;
         });
     }
-
+    //Metodas tekstui pakeist
     public void onBtnChangeTextClick(View view) {
         TextView tvChangeText = findViewById(R.id.tvChangeText);
         tvChangeText.setText(getString(R.string.welcome_message));
+    }
+
+    // Metodas spalvos keitimui
+    public void onBtnChangeColorClick(View view) {
+        TextView tvChangeText = findViewById(R.id.tvChangeText);
+        // Pakeicia teksto spalva i raudona
+        tvChangeText.setTextColor(Color.RED);
     }
 }

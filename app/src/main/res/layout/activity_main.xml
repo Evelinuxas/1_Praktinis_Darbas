@@ -31,5 +31,16 @@
         app:layout_constraintVertical_bias="0.148"
         tools:ignore="HardcodedText" />
 
+    <Button
+        android:id="@+id/btnChangeColor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Change Color"
+        android:onClick="onBtnChangeColorClick"
+        app:layout_constraintTop_toBottomOf="@+id/btnChangeText"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintVertical_bias="0.1"
+        tools:ignore="HardcodedText"/>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
